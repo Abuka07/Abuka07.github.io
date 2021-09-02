@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    text-align: 16px;
+}
+
+.item{
+    width: calc(50% - 20px);
+    height: 200px;
+    margin: 10px;
+    background-position: center;
+    border-radius: 5px;
+    }
+main{   
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 50px;
+    }
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: rgb(255, 0, 0);
+    background-image: url(../img/doroga.jpg);
+}
+.item-1{
+    background-image: url(../img/1.jpg);
+    
+}
+.item-2{
+    background-size: 105%;
+   background-image: url(../img/2.jpg);
+}
+.item-3{
+    background-image: url(../img/3.jpg);
+    background-size: 100%;
+}
+.item-4{
+    background-image: url(../img/4.jpg);
+    background-size: 100%;
+}
+.item-5{
+    background-image: url(../img/5.jpg);
+    background-size: 100%;
+}
+.item-6{
+    background-image: url(../img/6.jpg);
+    background-size: 100%;
+}
+.item-7{
+    background-image: url(../img/7.jpg);
+    background-size: 110%;
+}
+.item-8{
+    background-image: url(../img/8.jpg);
+    background-size: 120%;
+}
+.item-9{
+    background-image: url(../img/9.jpg);
+    background-size: 100%;
+}
+.item-10{
+    background-image: url(../img/10.jpg);
+    background-size: 100%;
+}
+.item-11{
+    background-image: url(../img/11.jpg);
+    background-size: 90%;
+}
+.item-12{
+    background-image: url(../img/12.jpg);
+    background-size: 100%;
+}
+.item:hover{
+    transform: scale(1.05) rotate(1deg);
+}
+header:hover{
+    background-color: rgba(255, 255, 255, 0.541);
+}
+header{
+     background-color: rgb(0, 0, 0);
+     margin-left: 12.6%;
+     margin-right: 12.6%;
+     border-radius: 10px;
+     
+}
+h1{
+    width: auto;
+    margin: 10px;
+    background-position: center;
+    border-radius: 50%;
+    color: rgb(241, 241, 241);
+    font-size: 32px;
+}
+main:hover{
+    background-color: cornsilk;
+    background-image: url(../img/22.jpg);
+}
+body:hover{
+    background-image: url(../img/22.jpg);
+}
+.owl-carousel{
+    width: 100%;
+    
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: rgb(42, 15, 196);
+    width: 80%;
+    margin:20px auto ;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 5);
+    border-radius: 10px;
+}   
+section{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    margin: 5px;
+}
+.firstPost{
+    background-color: rgb(219, 219, 219);
+}
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+p{
+    text-align: center;
+}
+.secondPost{
+    background-color: gold;
+}
+.A2{
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+h1{
+    color: rgb(255, 0, 0);
+    margin: 110px;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    border-radius: 10px;
+    width: auto;
+
+    
+}
+.A3{
+    color: blue;
+}
+.B1{
+background-image: url(../img.doroga.jpg);
+}

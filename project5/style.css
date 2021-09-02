@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,section{
+    height: 100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+    nav{
+    background-color:white ;
+    height: 100px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'MonteCarlo', cursive;
+    color: black;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#salmon{
+    background-color: salmon;
+}
+#green{
+    background-color: green;
+}
+#black{
+    background-color: black;
+}
+#img{
+    background-image: url(./img/1.jpg);
+    background-size: 100%;
+}

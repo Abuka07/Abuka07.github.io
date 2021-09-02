@@ -1,0 +1,11 @@
+@media (max-width:414px){
+    h1,p {
+        font-size: 30px;
+    }
+    .timeline {
+        font-size: 10px;
+    }
+    .asd,.asd1,.asd2,.asd3,.asd4,.more-info{
+        font-size: 20px;
+    }
+    }
